@@ -1,0 +1,36 @@
+.top-div{
+    border: 1px solid  rgb(0 0 0 / 7%) !important;
+    margin-bottom: 5px
+
+}
+
+#wrapper{
+    display:flex;
+    width:100%;
+    margin-top: 1%;
+  }
+  #w30{
+   
+    width:5%;
+    margin-left: -20px;
+  }
+  
+  #w70{  
+    width:92%;
+  
+  }
+
+  #wrapper-expanded{
+    display:flex;
+    width:100%;
+    margin-top: 1%;
+  }
+  #w30-expanded{
+   
+    width:15%;
+  }
+  
+  #w70-expanded{  
+    width:82%;
+    margin-left: 2%;
+  }

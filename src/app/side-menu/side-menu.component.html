@@ -1,0 +1,16 @@
+<div *ngFor="let menuData of menuList" >
+
+    <div style="margin-top:30px">
+
+        <div class="align-center">
+            <fa-icon class="menu-icon" [icon]="menuData.icon"></fa-icon>  
+        </div>
+    
+        <div  class="align-center font-12" style="margin-top:5px">
+        {{menuData.menuName}}
+        </div>
+
+    </div>
+   
+
+</div>

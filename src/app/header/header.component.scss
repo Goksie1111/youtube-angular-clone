@@ -1,0 +1,79 @@
+.header-container{
+    height: 37px;
+    padding: 10px 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f185;
+}
+
+.inline-class{
+  display: inline-block;
+}
+
+.youtube-icon{  
+  font-size: 25px;
+  color: red;
+  margin-top: 5px;
+}
+
+.youtube-div{
+  margin-left: 20px;
+  width: 30%;
+}
+
+.header-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.youtube-font{
+  font-size: 23px;
+  font-family: fantasy;
+}
+
+.menu-icon {
+  font-size: 25px;
+  color: rgb(0 0 0 / 45%);
+}
+
+.search-field{
+padding: 10px;
+border-radius: 5px;
+border-width: thin;
+width: 80%;
+border:1px solid #00000052 !important; 
+border-right: none;
+background-color: #f1f1f1;
+}
+
+.search-button{
+  border: 1px solid var(--ytd-searchbox-legacy-button-border-color);
+  background-color: var(--ytd-searchbox-legacy-button-color);
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  margin: 0;
+}
+
+.search-icon{
+  font-size: 17px;
+  color: #00000094;
+}
+
+.search-btn-div{
+  padding: 8px;
+  // border-width: thin;
+  // border:1px solid #00000052;
+  border-radius:8px;
+  margin-left: 5px; 
+}
+
+.micro-btn-div{
+  padding: 8px;
+   border-width: thin;
+   border:1px solid #00000052;
+  border-radius:8px;
+  margin-left: 5px; 
+}
+

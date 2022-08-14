@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
+
+
+.pointer{
+    cursor: pointer;
+}
+
+.inline-class{
+    display: inline-block;
+  }
+  
+  .font-18{
+
+    font-size: 18px;
+  }
+
+  .bg-color{
+    background-color: rgba(241, 241, 241, 0.5215686275);
+  }
+
+  .hght-div{
+
+    height: 850px;
+    overflow: auto;
+
+  }
+
+  .font-15{
+    font-size: 15px;
+  }

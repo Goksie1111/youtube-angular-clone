@@ -1,0 +1,82 @@
+<div class="top-div">
+</div>
+
+<div  *ngIf="!expanded" class="chip-fixed">
+
+    <div class="chip" *ngFor="let data of chipList">
+        {{data}}
+    </div>
+
+    <div class="top-div" >
+    </div>
+</div>
+
+<div  *ngIf="expanded" class="chip-fixed-exp">
+
+    <div class="chip" *ngFor="let data of chipList">
+        {{data}}
+    </div>
+
+    <div class="top-div" >
+    </div>
+</div>
+
+
+ <div  *ngIf="!expanded" style="margin-top: 0%;">
+    <div class="first-row pointer"  *ngFor="let data of firstSectionData">      
+        <div class="card" (click)="viewVideo()" >
+            <img class="img-class" [src]= "data.imgUrl">
+            <div class="img-footer">
+    
+                <div id="wrapper">
+                    <div id="w30">  
+                        <img class="sub-img-class" [src]= "data.subImgUrl">   
+                    </div>
+                    <div id="w70">  
+                        <span>                    
+                          <p class="first-row-para">
+                           {{data.title}}
+                          </p>  
+                            <p style="margin-top: -10px" class="bottom-heading">
+                                {{data.channelName}}
+                            </p>
+                            <p style="margin-top: -10px" class="bottom-heading">
+                               <span> {{data.views}}</span><span> . </span> <span>{{data.time}}</span>
+                            </p>                                    
+                        </span>
+                    </div>
+                  </div>   
+            </div>
+        </div>
+    
+    </div>
+ </div>
+ <div *ngIf="expanded"  style="margin-top: 0%;">
+    <div class="first-row-exp pointer"  *ngFor="let data of firstSectionData">      
+        <div class="card">
+            <img class="img-class-exp" [src]= "data.imgUrl">
+            <div class="img-footer-exp">
+    
+                <div id="wrapper">
+                    <div id="w30">  
+                        <img class="sub-img-class-exp" [src]= "data.subImgUrl">   
+                    </div>
+                    <div id="w70">  
+                        <span>                    
+                          <p class="first-row-para-exp">
+                           {{data.title}}
+                          </p>  
+                            <p style="margin-top: -10px" class="bottom-heading-exp">
+                                {{data.channelName}}
+                            </p>
+                            <p style="margin-top: -10px" class="bottom-heading-exp">
+                               <span> {{data.views}}</span><span> . </span> <span>{{data.time}}</span>
+                            </p>                                    
+                        </span>
+                    </div>
+                  </div>   
+            </div>
+        </div>
+    
+    </div>
+ </div>
